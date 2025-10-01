@@ -1,0 +1,17 @@
+{% autoescape off %}
+Hi Medfinder,
+
+Thank you for contributing to MedFind by adding a new health center. 
+
+Your input helps make healthcare more accessible to everyone.
+
+Here are the details you provided:
+- Health Center Name: {{ name }}
+- Address: {{ address }}
+- Category: {{ category }}
+
+We’re grateful for your support in helping other Medfinders discover quality healthcare options.  
+
+Best regards,  
+The MedFind Team
+{% endautoescape %}
